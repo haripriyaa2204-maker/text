@@ -1,0 +1,200 @@
+/*General*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: papayawhip;
+    color: black;
+}
+
+/*Header*/
+header {
+    background:rgb(112, 216, 114);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+/*Hero section*/
+.hero {
+    background:url(https://picsum.photos/1200/400?travel) center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+/*Flex content*/
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250 px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0,1);
+    transition: transform 0,3s;
+}
+
+.card:hover {
+    transform:translate(-8px)
+}
+
+/*Testimonials*/
+.testimonials {
+    background: wheat;
+    padding: 40px 20 px;
+    text-align: center;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonials {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 3px 8px rgbha(0,0,0,0,1);
+    font-style: italic;
+}
+
+/*call to action*/
+.cta {
+    background: orange;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta button {
+    padding: 12px 20px;
+    border: none;
+    background: blue;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.cta button:hover {
+    background: darkgreen;
+}
+
+/*gallery*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery figure {
+    text-align: center;
+}
+
+.gallery img {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/*travel quote*/
+.quote {
+    background: #343434;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-style: italic;
+}
+/*footer*/
+footer {
+    background: #2c2c2c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/*about*/
+.header {
+    background: greenyellow;
+    color: beige;
+    padding: 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Hero section*/
+.hero {
+    background-color:rgb(76, 76, 15);
+    color: lightcyan;
+    text-align: center;
+    padding-left: 8px;
+}
+
+/*about*/
+.h2 {
+    background:lightcyan;
+    padding: 8px;
+    color:antiquewhite;
+}
+
+/*call to action*/
+.cta {
+    background: rgb(189, 159, 107);
+    color: aliceblue;
+    padding: 8px;
+}
+.cta button {
+    background: lightsalmon;
+    color: rgb(153, 8, 136);
+}
+
+/*footer*/
+.footer {
+    background: #333;
+    color: bisque;
+}
